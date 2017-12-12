@@ -27155,7 +27155,6 @@ body.m-content--skin-light2 {
                 .m-topbar .m-topbar__nav.m-nav > .m-nav__item > .m-nav__link .m-nav__link-icon > i:before {
                   background: transparent; } }
           .m-topbar .m-topbar__nav.m-nav > .m-nav__item > .m-nav__link .m-nav__link-icon i:before {
-            font-weight: bold;
             padding: 1px; }
             @media screen\0 {
               .m-topbar .m-topbar__nav.m-nav > .m-nav__item > .m-nav__link .m-nav__link-icon i:before {
