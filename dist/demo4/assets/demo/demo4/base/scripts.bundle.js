@@ -7285,7 +7285,7 @@ var mLayout = function() {
             $('body').toggleClass('m-topbar--on');
         });
 
-        // Animated Notification Icon
+        /*// Animated Notification Icon
         setInterval(function() {
             $('#m_topbar_notification_icon .m-nav__link-icon').addClass('m-animate-shake');
             $('#m_topbar_notification_icon .m-nav__link-badge').addClass('m-animate-blink');
@@ -7294,7 +7294,7 @@ var mLayout = function() {
         setInterval(function() {
             $('#m_topbar_notification_icon .m-nav__link-icon').removeClass('m-animate-shake');
             $('#m_topbar_notification_icon .m-nav__link-badge').removeClass('m-animate-blink');
-        }, 6000);
+        }, 6000);*/
     };
 
     // handle quick search

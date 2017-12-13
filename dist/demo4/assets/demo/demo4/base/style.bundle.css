@@ -6882,6 +6882,10 @@ a.text-dark:focus, a.text-dark:hover {
 .nav.nav-pills.m-nav-pills--btn-sm .m-tabs__link {
   padding: 0.6em 1.4em;
   font-size: 0.85rem; }
+.m-tabs__link-span {
+  padding: 0.6em 1.4em;
+  font-size: 0.85rem; border-radius: 20px }
+
 
 .nav.nav-pills .nav-link, .nav.nav-tabs .nav-link {
   color: #6f727d; }
@@ -6900,6 +6904,10 @@ a.text-dark:focus, a.text-dark:hover {
 .nav.nav-pills.nav-pills--brand .nav-link.active {
   background: #716aca;
   color: #ffffff; }
+.active-span {
+  background: #716aca;
+  color: #ffffff; }
+
   .nav.nav-pills.nav-pills--brand .nav-link.active i {
     color: #f0f0f0; }
 
@@ -7855,21 +7863,21 @@ body.m--skin-dark {
   -o-animation: m-animate-fade-in 0.5s;
   animation: m-animate-fade-in 0.5s; }
 
-.m-animate-blink {
+/*.m-animate-blink {
   -webkit-animation: m-animate-blink 1s step-start 0s infinite;
   -moz-animation: m-animate-blink 1s step-start 0s infinite;
   -ms-animation: m-animate-blink 1s step-start 0s infinite;
   -o-animation: m-animate-blink 1s step-start 0s infinite;
   animation: m-animate-blink 1s step-start 0s infinite;
-  animation-fill-mode: initial; }
+  animation-fill-mode: initial; }*/
 
-.m-animate-shake {
+/*.m-animate-shake {
   -webkit-animation: m-animate-shake 0.1s ease-in 0.1s infinite alternate;
   -moz-animation: m-animate-shake 0.1s ease-in 0.1s infinite alternate;
   -ms-animation: m-animate-shake 0.1s ease-in 0.1s infinite alternate;
   -o-animation: m-animate-shake 0.1s ease-in 0.1s infinite alternate;
   animation: m-animate-shake 0.1s ease-in 0.1s infinite alternate;
-  animation-fill-mode: initial; }
+  animation-fill-mode: initial; }*/
 
 .m-animate-pause {
   -webkit-animation-play-state: paused;
@@ -7996,7 +8004,7 @@ body.m--skin-dark {
     -o-transform: translateY(0px);
     transform: translateY(0px); } }
 
-@-webkit-keyframes m-animate-blink {
+/*@-webkit-keyframes m-animate-blink {
   50% {
     opacity: 0.0; } }
 
@@ -8010,9 +8018,9 @@ body.m--skin-dark {
 
 @keyframes m-animate-blink {
   50% {
-    opacity: 0.0; } }
+    opacity: 0.0; } }*/
 
-@-webkit-keyframes m-animate-shake {
+/*@-webkit-keyframes m-animate-shake {
   from {
     -webkit-transform: rotate(13deg);
     -moz-transform: rotate(13deg);
@@ -8025,7 +8033,7 @@ body.m--skin-dark {
     -moz-transform: rotate(-13deg);
     -ms-transform: rotate(-13deg);
     -o-transform: rotate(-13deg);
-    transform: rotate(-13deg); } }
+    transform: rotate(-13deg); } }*/
 
 @-moz-keyframes m-animate-shake {
   from {
