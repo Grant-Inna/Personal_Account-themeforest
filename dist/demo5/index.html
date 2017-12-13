@@ -610,7 +610,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											</ul>
                                         </div>
                                     </li>
-										<li class="m-menu__item  m-menu__item--submenu m-menu__item--rel"  data-menu-submenu-toggle="click" aria-haspopup="true">
+										<li class="m-menu__item  m-menu__item--submenu m-menu__item--rel"  data-menu-submenu-toggle="click" data-redirect="true" aria-haspopup="true">
 											<a  href="#" class="m-menu__link m-menu__toggle">
 												<span class="m-menu__item-here"></span>
 												<span class="m-menu__link-text">
@@ -619,60 +619,89 @@ License: You must have a valid license purchased only from themeforest(the above
 												<i class="m-menu__hor-arrow la la-angle-down"></i>
 												<i class="m-menu__ver-arrow la la-angle-right"></i>
 											</a>
-											<div class="m-menu__submenu m-menu__submenu--classic m-menu__submenu--left">
+											<div class="m-menu__submenu  m-menu__submenu--fixed m-menu__submenu--left" style="width:600px">
 												<span class="m-menu__arrow m-menu__arrow--adjust"></span>
-												<ul class="m-menu__subnav">
-													<li class="m-menu__item "  aria-haspopup="true">
-														<a  href="inner.html" class="m-menu__link ">
-															<i class="m-menu__link-icon flaticon-diagram"></i>
-															<span class="m-menu__link-title">
-																<span class="m-menu__link-wrap">
-																	<span class="m-menu__link-text">
-																		Все контракты
-																	</span>
+												<div class="m-menu__subnav">
+													<ul class="m-menu__content">
+														<li class="m-menu__item">
+															<h3 class="m-menu__heading m-menu__toggle">
+																<span class="m-menu__link-text">
+																	Разделы
 																</span>
-															</span>
-														</a>
-													</li>
-													<li class="m-menu__item "  aria-haspopup="true">
-														<a  href="inner.html" class="m-menu__link ">
-															<i class="m-menu__link-icon flaticon-business"></i>
-															<span class="m-menu__link-title">
-																<span class="m-menu__link-wrap">
-																	<span class="m-menu__link-text">
-																		Шаблоны контрактов
-																	</span>
+																<i class="m-menu__ver-arrow la la-angle-right"></i>
+															</h3>
+															<ul class="m-menu__inner">
+																<li class="m-menu__item "  data-redirect="true" aria-haspopup="true">
+																	<a  href="inner.html" class="m-menu__link ">
+																		<i class="m-menu__link-icon flaticon-map"></i>
+																		<span class="m-menu__link-text">
+																			Все контракты
+																		</span>
+																	</a>
+																</li>
+																<li class="m-menu__item "  data-redirect="true" aria-haspopup="true">
+																	<a  href="inner.html" class="m-menu__link ">
+																		<i class="m-menu__link-icon flaticon-user"></i>
+																		<span class="m-menu__link-text">
+																			Пакеты услуг
+																		</span>
+																	</a>
+																</li>
+																<li class="m-menu__item "  data-redirect="true" aria-haspopup="true">
+																	<a  href="inner.html" class="m-menu__link ">
+																		<i class="m-menu__link-icon flaticon-clipboard"></i>
+																		<span class="m-menu__link-text">
+																			Тарифные планы
+																		</span>
+																	</a>
+																</li>
+															</ul>
+														</li>
+														<li class="m-menu__item">
+															<h3 class="m-menu__heading m-menu__toggle">
+																<span class="m-menu__link-text">
+																	Настройки
 																</span>
-															</span>
-														</a>
-													</li>
-													<li class="m-menu__item "  aria-haspopup="true">
-														<a  href="inner.html" class="m-menu__link ">
-															<i class="m-menu__link-icon flaticon-chat-1"></i>
-															<span class="m-menu__link-title">
-																<span class="m-menu__link-wrap">
-																	<span class="m-menu__link-text">
-																		Пакеты услуг
-																	</span>
-																</span>
-															</span>
-														</a>
-													</li>
-													<li class="m-menu__item "  aria-haspopup="true">
-														<a  href="inner.html" class="m-menu__link ">
-															<i class="m-menu__link-icon flaticon-chat-1"></i>
-															<span class="m-menu__link-title">
-																<span class="m-menu__link-wrap">
-																	<span class="m-menu__link-text">
-																		Тарифные планы
-																	</span>
-																</span>
-															</span>
-														</a>
-													</li>
-												</ul>
+																<i class="m-menu__ver-arrow la la-angle-right"></i>
+															</h3>
+															<ul class="m-menu__inner">
+																<li class="m-menu__item "  data-redirect="true" aria-haspopup="true">
+																	<a  href="inner.html" class="m-menu__link ">
+																		<i class="m-menu__link-bullet m-menu__link-bullet--line">
+																			<span></span>
+																		</i>
+																		<span class="m-menu__link-text">
+																			Шаблоны контрактов
+																		</span>
+																	</a>
+																</li>
+																<li class="m-menu__item "  data-redirect="true" aria-haspopup="true">
+																	<a  href="inner.html" class="m-menu__link ">
+																		<i class="m-menu__link-bullet m-menu__link-bullet--line">
+																			<span></span>
+																		</i>
+																		<span class="m-menu__link-text">
+																			Расчётные формулы
+																		</span>
+																	</a>
+																</li>
+																<li class="m-menu__item "  data-redirect="true" aria-haspopup="true">
+																	<a  href="inner.html" class="m-menu__link ">
+																		<i class="m-menu__link-bullet m-menu__link-bullet--line">
+																			<span></span>
+																		</i>
+																		<span class="m-menu__link-text">
+																			Тарифные формулы
+																		</span>
+																	</a>
+																</li>
+															</ul>
+														</li>
+													</ul>
+												</div>
 											</div>
 										</li>
+
 										<li class="m-menu__item  m-menu__item--submenu m-menu__item--rel"  data-menu-submenu-toggle="click" aria-haspopup="true">
 											<a  href="#" class="m-menu__link m-menu__toggle">
 												<span class="m-menu__item-here"></span>
