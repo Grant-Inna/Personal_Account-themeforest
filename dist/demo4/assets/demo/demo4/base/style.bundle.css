@@ -95,7 +95,8 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #212529;
-  background-color: #25283e; }
+  background: url('../media/img/bg.jpg');
+  background-size: contain }
 
 [tabindex="-1"]:focus {
   outline: none !important; }
