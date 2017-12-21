@@ -39,8 +39,10 @@ License: You must have a valid license purchased only from themeforest(the above
     <!--end::Page Vendors -->
     <link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css"/>
     <link href="assets/demo/demo4/base/style.bundle.css" rel="stylesheet" type="text/css"/>
+
+    <link rel="stylesheet" href="assets/css/custom.css">
     <!--end::Base Styles -->
-    <link rel="shortcut icon" href="assets/demo/demo4/media/img/logo/favicon.ico"/>
+    <link rel="shortcut icon" href="assets/img/logo/favicon.ico"/>
 </head>
 <!-- end::Head -->
 <!-- end::Body -->
@@ -56,7 +58,7 @@ License: You must have a valid license purchased only from themeforest(the above
                     <div class="m-stack m-stack--ver m-stack--general m-stack--inline">
                         <div class="m-stack__item m-stack__item--middle m-brand__logo">
                             <a href="index.html" class="m-brand__logo-wrapper">
-                                <img alt="" src="assets/demo/demo4/media/img/logo/logo.png"/>
+                                <img alt="" src="assets/img/logo/logo.png"/>
                             </a>
                         </div>
                         <div class="m-stack__item m-stack__item--middle m-brand__tools">
@@ -899,8 +901,8 @@ License: You must have a valid license purchased only from themeforest(the above
                     <div class="m-content">
 
                         <!--Begin::Main Portlet-->
-                        <div class="row"><div class="col-xl-3"></div>
-                            <div class="col-xl-6">
+                        <div class="row"><div class="col-xl-2"></div>
+                            <div class="col-xl-8">
                                 <!--begin:: Widgets/Application Sales-->
                                 <div class="m-portlet">
                                     <div class="m-portlet__head">
@@ -913,7 +915,160 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="m-portlet__body">содержимое блока</div>
+                                    <!--Begin::Main Content-->
+
+                                    <div class="m-portlet__head m-portlet__head-wizard">
+                                        <h4 class="m-portlet__head-text" id="">
+                                            Каналы коммуникации
+                                        </h4>
+                                    </div>
+                                    <div class="m-portlet__body">
+
+                                        <div class="m-form__section m-form__section--first">
+                                            <div class="form-group m-form__group">
+                                                <h5 class="input-label__vert-big">
+                                                    Каналы для общения с клиентами
+                                                </h5>
+
+                                                <div class="col-sm-12 margin-t-15">
+                                                    <div class="row justify-content-between">
+                                                        <div class="flex-center">
+                                                            <div class="icon-channel icon-channel-facebook"></div>
+                                                        </div>
+                                                        <div class="f-left col-form-label">
+                                                            <label for="facebook" class="input-label__vert">Facebook Messenger</label>
+                                                            <div class="sup-text-plane">Чат с пользователями социальной сети Facebook</div>
+                                                        </div>
+                                                        <div class="col-lg-2 sup-text-plane flex-center-end basis-85 no-padding">Бесплатно</div>
+                                                        <div class="col-lg-2 flex-center-end basis-10 no-padding margin-l-15">
+                                                            <span class="m-switch m-switch--outline m-switch--icon m-switch--primary flex-center">
+                                                                <label class="no-margin">
+                                                                    <input id="facebook" type="checkbox" checked="checked" name="">
+                                                                    <span></span>
+                                                                </label>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-12">
+                                                    <div class="row justify-content-between">
+                                                        <div class="flex-center">
+                                                            <div class="icon-channel icon-channel-telegram"></div>
+                                                        </div>
+                                                        <div class="f-left col-form-label">
+                                                            <label for="telegram" class="input-label__vert">Telegram Bot
+                                                            </label>
+                                                            <div class="sup-text-plane">Чат с пользователями Telegram</div>
+                                                        </div>
+                                                        <div class="col-lg-2 sup-text-plane flex-center-end basis-85 no-padding">Бесплатно</div>
+                                                        <div class="col-lg-2 flex-center-end basis-10 no-padding margin-l-15">
+                                                            <span class="m-switch m-switch--outline m-switch--icon m-switch--primary flex-center">
+                                                                <label class="no-margin">
+                                                                    <input id="telegram" type="checkbox" checked="checked" name="">
+                                                                    <span></span>
+                                                                </label>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-12">
+                                                    <div class="row justify-content-between">
+                                                        <div class="flex-center">
+                                                            <div class="icon-channel icon-channel-viber"></div>
+                                                        </div>
+                                                        <div class="f-left col-form-label">
+                                                            <label for="viber" class="input-label__vert">Viber Public Account</label>
+                                                            <div class="sup-text-plane">Чат с пользователями Viber</div>
+                                                        </div>
+                                                        <div class="col-lg-2 sup-text-plane flex-center-end basis-85 no-padding">Бесплатно</div>
+                                                        <div class="col-lg-2 flex-center-end basis-10 no-padding margin-l-15">
+                                                            <span class="m-switch m-switch--outline m-switch--icon m-switch--primary flex-center">
+                                                                <label class="no-margin">
+                                                                    <input id="viber" type="checkbox" checked="checked" name="">
+                                                                    <span></span>
+                                                                </label>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="form-group m-form__group form-group-top-offset">
+                                                <div class="input-label__vert">
+                                                    Каналы для массовых рассылок
+                                                </div>
+                                                <div class="sup-text sup-text-big">Используется номер телефона для доставки сообщения</div>
+
+                                                <div class="col-sm-12 margin-t-15">
+                                                    <div class="row justify-content-between">
+                                                        <div class="flex-center">
+                                                            <div class="icon-channel icon-channel-viber"></div>
+                                                        </div>
+                                                        <div class="f-left col-form-label">
+                                                            <label for="viber-mass" class="input-label__vert">Viber Рассылки</label>
+                                                            <div class="sup-text-plane sup-text-attention">Платный канал с тарификацией за доставленные сообщения</div>
+                                                        </div>
+                                                        <div class="col-lg-2 sup-text-plane flex-center-end basis-85 no-padding"></div>
+                                                        <div class="col-lg-2 flex-center-end basis-10 no-padding margin-l-15">
+                                                            <span class="m-switch m-switch--outline m-switch--icon m-switch--primary flex-center">
+                                                                <label class="no-margin">
+                                                                    <input id="viber-mass" type="checkbox" checked="checked" name="">
+                                                                    <span></span>
+                                                                </label>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-12">
+                                                    <div class="row justify-content-between">
+                                                        <div class="flex-center">
+                                                            <div class="icon-channel icon-channel-vk"></div>
+                                                        </div>
+                                                        <div class="f-left col-form-label">
+                                                            <label for="vk-mass" class="input-label__vert">VK.com Рассылки</label>
+                                                            <div class="sup-text-plane sup-text-attention">Платный канал с тарификацией за отправленные сообщения</div>
+                                                        </div>
+                                                        <div class="col-lg-2 sup-text-plane flex-center-end basis-85 no-padding"></div>
+                                                        <div class="col-lg-2 flex-center-end basis-10 no-padding margin-l-15">
+                                                            <span class="m-switch m-switch--outline m-switch--icon m-switch--primary flex-center">
+                                                                <label class="no-margin">
+                                                                    <input id="vk-mass" type="checkbox" checked="checked" name="">
+                                                                    <span></span>
+                                                                </label>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-12">
+                                                    <div class="row justify-content-between">
+                                                        <div class="flex-center">
+                                                            <div class="icon-channel icon-channel-sms"></div>
+                                                        </div>
+                                                        <div class="f-left col-form-label">
+                                                            <label for="sms-mass" class="input-label__vert">SMS Рассылки</label>
+                                                            <div class="sup-text-plane sup-text-attention">Платный канал с тарификацией за отправленные сообщения</div>
+                                                        </div>
+                                                        <div class="col-lg-2 sup-text-plane flex-center-end basis-85 no-padding"></div>
+                                                        <div class="col-lg-2 flex-center-end basis-10 no-padding margin-l-15">
+                                                            <span class="m-switch m-switch--outline m-switch--icon m-switch--primary flex-center">
+                                                                <label class="no-margin">
+                                                                    <input id="sms-mass" type="checkbox" checked="checked" name="">
+                                                                    <span></span>
+                                                                </label>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <!--End::Main Content-->
                                     <div class="m-portlet__foot">
                                         <div class="row align-items-center">
                                             <div class="col-lg-6 m--valign-middle">
