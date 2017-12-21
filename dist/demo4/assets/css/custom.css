@@ -1,0 +1,106 @@
+.m-portlet__body .m-form__group .input-label__vert, .m-portlet__body .input-label__vert {  /* MINE */
+    font-weight: 500;
+    font-size: 1.2rem; }
+.input-label__vert-big {
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.form-group .sup-text, .sup-text {  /* MINE */
+    font-weight: 300;
+    font-size: 0.85rem;
+    padding-top: 7px; }
+.sup-text-plane {
+    font-weight: 300;
+    font-size: 0.85rem;
+}
+.sup-text-big {
+    font-weight: 300;
+    font-size: 1rem !important;
+}
+.sup-text-attention {
+    background-color: rgba(85, 81, 244, 0.15);
+}
+.m-form__section .form-group-top-offset {  /* MINE */
+    margin-top: 30px;
+}
+.m-portlet .m-portlet__head-wizard {
+    border: none;
+    padding: 2.2rem
+}
+
+.switch-wizard {
+
+}
+
+.width-full {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-center-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.basis-45 {
+    flex-basis: 45%;
+    flex-grow: 5;
+}
+.basis-10 {
+    flex-basis: 10%;
+    flex-grow: 5;
+}
+.basis-85 {
+    flex-basis: 85%;
+    flex-grow: 5;
+}
+.shrink-big {
+    flex-shrink: 5;
+}
+
+.f-left {
+    margin: 0 auto 0 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+.no-padding {
+    padding: 0;
+}
+.margin-l-15 {
+    margin-left: 15px;
+}
+.margin-t-15 {
+    margin-top: 15px;
+}
+
+.icon-channel {
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    margin-right: 10px; }
+.icon-channel-telegram {
+    background: url("../img/social/telegram.png") no-repeat;
+    background-size: contain; }
+.icon-channel-vk {
+    background: url("../img/social/vk.png") no-repeat;
+    background-size: contain; }
+.icon-channel-viber {
+    background: url("../img/social/viber.png") no-repeat;
+    background-size: contain; }
+.icon-channel-facebook {
+    background: url("../img/social/fb.png") no-repeat;
+    background-size: contain; }
+.icon-channel-sms {
+    background: url("../img/social/sms1.png") no-repeat;
+    background-size: contain; }
