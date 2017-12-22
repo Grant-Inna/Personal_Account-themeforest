@@ -86,6 +86,10 @@
     margin-top: 15px;
 }
 
+.no-offset {
+    margin: 0 -15px;
+}
+
 .color-white { color: #fff }
 
 .icon-channel {
