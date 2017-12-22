@@ -17,7 +17,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <head>
     <meta charset="utf-8"/>
     <title>
-        Metronic | Dashboard
+        Messaggio | Wizard
     </title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -39,6 +39,9 @@ License: You must have a valid license purchased only from themeforest(the above
     <!--end::Page Vendors -->
     <link href="assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css"/>
     <link href="assets/demo/demo4/base/style.bundle.css" rel="stylesheet" type="text/css"/>
+
+    <link rel="stylesheet" href="assets/css/custom.css">
+
     <!--end::Base Styles -->
     <link rel="shortcut icon" href="assets/img/logo/favicon.ico"/>
 </head>
@@ -913,20 +916,58 @@ License: You must have a valid license purchased only from themeforest(the above
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="m-portlet__body">
-                                        <!--Begin::Main Content-->
+                                    <!--Begin::Main Content-->
 
-
-
-                                        <!--End::Main Content-->
+                                    <div class="m-portlet__head m-portlet__head-wizard">
+                                        <h4 class="m-portlet__head-text" id="">
+                                            Общая информация о вашем проекте
+                                        </h4>
                                     </div>
+                                    <div class="m-portlet__body">
+
+                                        <div class="m-form__section m-form__section--first">
+                                            <div class="form-group m-form__group">
+                                                <label for="comp-name" class="input-label__vert">
+                                                    Название компании
+                                                </label>
+
+                                                <div class="col-sm-12 flex">
+                                                    <input id="comp-name" class="form-control m-input" name="text" placeholder="Great Cosmetics" type="text">
+                                                </div>
+
+
+                                            </div>
+                                            <div class="form-group m-form__group form-group-top-offset">
+                                                <label for="comp-url" class="input-label__vert">
+                                                    Адрес сайта
+                                                </label>
+
+                                                <div class="col-sm-12 flex">
+                                                    <input id="comp-url" class="form-control m-input" name="url" placeholder="http://www.website.com" type="text">
+                                                </div>
+
+                                            </div>
+                                            <div class="form-group m-form__group form-group-top-offset">
+                                                <label for="comp-info" class="input-label__vert">
+                                                    Краткое описание
+                                                </label>
+
+                                                <div class="col-sm-12 flex">
+                                                    <input id="comp-info" class="form-control m-input" name="text" placeholder="Магазин косметики" type="text">
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--End::Main Content-->
                                     <div class="m-portlet__foot">
                                         <div class="row align-items-center">
                                             <div class="col-lg-6 m--valign-middle">
                                                 <a href="wizard-step2.html"><button type="submit" class="btn btn-secondary">&#10094; &nbsp; Назад</button></a>
                                             </div>
                                             <div class="col-lg-6 m--align-right">
-                                                <a href="wizard-step3.html"><button type="submit" class="btn btn-success">Готово &nbsp; &#10004;</button></a>
+                                                <a href="wizard-step3.html"><button type="submit" class="btn btn-success color-white">Готово &nbsp; &#10004;</button></a>
                                             </div>
                                         </div>
                                     </div>
@@ -1005,6 +1046,8 @@ License: You must have a valid license purchased only from themeforest(the above
 <!--end::Page Vendors -->
 <!--begin::Page Snippets -->
 <script src="assets/app/js/dashboard.js" type="text/javascript"></script>
+
+<script src="assets/js/forms/validation/form-controls.js" type="text/javascript"></script>
 <!--end::Page Snippets -->
 </body>
 <!-- end::Body -->
