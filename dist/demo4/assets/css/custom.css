@@ -1,3 +1,11 @@
+img {
+    max-width: 100%;
+}
+
+.logo-wrapper img {
+    max-width: 150px;
+}
+
 .m-portlet__body .m-form__group .input-label__vert, .m-portlet__body .input-label__vert {  /* MINE */
     font-weight: 500;
     font-size: 1.2rem; }
