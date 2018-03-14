@@ -21943,7 +21943,28 @@ body.m-portlet--fullscreen {
       background-color: #f4f5f8;
       border-color: #f4f5f8;
       color: #575962;
-      border-radius: 0.25rem;}
+      border: 1px solid rgba(0, 0, 0, 0.03);
+
+      border-top-color: rgba(0, 0, 0, 0.03);
+      border-right-color: rgba(0, 0, 0, 0.03);
+      border-bottom-color: rgba(0, 0, 0, 0.03);
+      border-left-color: rgba(0, 0, 0, 0.03);
+
+      border-radius: 0.25rem;
+
+      transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;}
+.form-control[readonly]::-moz-placeholder, .form-control::-moz-placeholder {
+  color: #9699a2;
+  opacity: 1;} .form-control::placeholder {
+                 color: #868e96;
+                 opacity: 1;}
+/*.m-form .m-form__group.m-form__group--inline > .m-form__control:focus {
+  background-color: #ebedf2;
+
+  border-color: #716aca;
+
+  color: #575962;
+}*/
 
 .m-form .m-form__help {
   font-weight: 300;
