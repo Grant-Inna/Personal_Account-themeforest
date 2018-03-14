@@ -21939,7 +21939,11 @@ body.m-portlet--fullscreen {
       display: table-cell;
       vertical-align: middle;
       margin: 0;
-      width: 100%; }
+      width: 100%;
+      background-color: #f4f5f8;
+      border-color: #f4f5f8;
+      color: #575962;
+      border-radius: 0.25rem;}
 
 .m-form .m-form__help {
   font-weight: 300;
