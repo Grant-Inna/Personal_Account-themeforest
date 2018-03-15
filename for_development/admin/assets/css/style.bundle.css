@@ -27929,7 +27929,7 @@ select.m-select2 {
             margin-right: -40px; }
         .m-header-menu .m-menu__nav > .m-menu__item .m-menu__submenu.m-menu__submenu--left {
           right: auto;
-          left: 0; }
+          left: 0; }  .subMenu__double { width: 600px !important;}
           .m-header-menu .m-menu__nav > .m-menu__item .m-menu__submenu.m-menu__submenu--left.m-menu__submenu--pull {
             margin-left: -40px; }
         .m-header-menu .m-menu__nav > .m-menu__item .m-menu__submenu.m-menu__submenu--center {
