@@ -4580,8 +4580,8 @@ select.selectpicker {
   font-family: "summernote";
   font-style: normal;
   font-weight: normal;
-  src: url("fonts/summernote/summernote.eot?0d0d5fac99cc8774d89eb08b1a8323c4");
-  src: url("fonts/summernote/summernote.eot?#iefix") format("embedded-opentype"), url("fonts/summernote/summernote.woff?0d0d5fac99cc8774d89eb08b1a8323c4") format("woff"), url("fonts/summernote/summernote.ttf?0d0d5fac99cc8774d89eb08b1a8323c4") format("truetype"); }
+  src: url("../fonts/summernote/summernote.eot?0d0d5fac99cc8774d89eb08b1a8323c4");
+  src: url("../fonts/summernote/summernote.eot?#iefix") format("embedded-opentype"), url("../fonts/summernote/summernote.woff?0d0d5fac99cc8774d89eb08b1a8323c4") format("woff"), url("../fonts/summernote/summernote.ttf?0d0d5fac99cc8774d89eb08b1a8323c4") format("truetype"); }
 
 [class^="note-icon-"]:before, [class*=" note-icon-"]:before {
   display: inline-block;
@@ -9603,8 +9603,8 @@ button.toast-close-button {
 /*# sourceMappingURL=chartist.css.map */
 @font-face {
   font-family: "socicon";
-  src: url("fonts/socicon/socicon.eot");
-  src: url("fonts/socicon/socicon.eot?#iefix") format("embedded-opentype"), url("fonts/socicon/socicon.woff") format("woff"), url("fonts/socicon/socicon.ttf") format("truetype"), url("fonts/socicon/socicon.svg#socicon") format("svg");
+  src: url("../fonts/socicon/socicon.eot");
+  src: url("../fonts/socicon/socicon.eot?#iefix") format("embedded-opentype"), url("../fonts/socicon/socicon.woff") format("woff"), url("../fonts/socicon/socicon.ttf") format("truetype"), url("../fonts/socicon/socicon.svg#socicon") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -10144,8 +10144,8 @@ button.toast-close-button {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url("fonts/font-awesome/fontawesome-webfont.eot?v=4.7.0");
-  src: url("fonts/font-awesome/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("fonts/font-awesome/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("fonts/font-awesome/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("fonts/font-awesome/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("fonts/font-awesome/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+  src: url("../fonts/font-awesome/fontawesome-webfont.eot?v=4.7.0");
+  src: url("../fonts/font-awesome/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/font-awesome/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../fonts/font-awesome/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../fonts/font-awesome/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../fonts/font-awesome/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -12486,15 +12486,15 @@ button.toast-close-button {
  */
 @font-face {
   font-family: "LineAwesome";
-  src: url("fonts/line-awesome/line-awesome.eot?v=1.1.");
-  src: url("fonts/line-awesome/line-awesome.eot??v=1.1.#iefix") format("embedded-opentype"), url("fonts/line-awesome/line-awesome.woff2?v=1.1.") format("woff2"), url("fonts/line-awesome/line-awesome.woff?v=1.1.") format("woff"), url("fonts/line-awesome/line-awesome.ttf?v=1.1.") format("truetype"), url("fonts/line-awesome/line-awesome.svg?v=1.1.#fa") format("svg");
+  src: url("../fonts/line-awesome/line-awesome.eot?v=1.1.");
+  src: url("../fonts/line-awesome/line-awesome.eot??v=1.1.#iefix") format("embedded-opentype"), url("../fonts/line-awesome/line-awesome.woff2?v=1.1.") format("woff2"), url("../fonts/line-awesome/line-awesome.woff?v=1.1.") format("woff"), url("../fonts/line-awesome/line-awesome.ttf?v=1.1.") format("truetype"), url("../fonts/line-awesome/line-awesome.svg?v=1.1.#fa") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: "LineAwesome";
-    src: url("fonts/line-awesome/line-awesome.svg?v=1.1.#fa") format("svg"); } }
+    src: url("../fonts/line-awesome/line-awesome.svg?v=1.1.#fa") format("svg"); } }
 
 /* Thanks to http://fontawesome.io @fontawesome and @davegandy */
 .la {
@@ -14615,15 +14615,15 @@ button.toast-close-button {
   	*/
 @font-face {
   font-family: "Flaticon";
-  src: url("fonts/flaticon/Flaticon.eot");
-  src: url("fonts/flaticon/Flaticon.eot?#iefix") format("embedded-opentype"), url("fonts/flaticon/Flaticon.woff") format("woff"), url("fonts/flaticon/Flaticon.ttf") format("truetype"), url("fonts/flaticon/Flaticon.svg#Flaticon") format("svg");
+  src: url("../fonts/flaticon/Flaticon.eot");
+  src: url("../fonts/flaticon/Flaticon.eot?#iefix") format("embedded-opentype"), url("../fonts/flaticon/Flaticon.woff") format("woff"), url("../fonts/flaticon/Flaticon.ttf") format("truetype"), url("../fonts/flaticon/Flaticon.svg#Flaticon") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: "Flaticon";
-    src: url("fonts/flaticon/Flaticon.svg#Flaticon") format("svg"); } }
+    src: url("../fonts/flaticon/Flaticon.svg#Flaticon") format("svg"); } }
 
 [class^="flaticon-"]:before,
 [class*=" flaticon-"]:before {
@@ -15152,15 +15152,15 @@ button.toast-close-button {
  */
 @font-face {
   font-family: "Metronic";
-  src: url("fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.eot");
-  src: url("fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.eot?#iefix") format("embedded-opentype"), url("fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.woff2") format("woff2"), url("fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.woff") format("woff"), url("fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.ttf") format("truetype"), url("fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.svg#Metronic") format("svg");
+  src: url("../fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.eot");
+  src: url("../fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.eot?#iefix") format("embedded-opentype"), url("../fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.woff2") format("woff2"), url("../fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.woff") format("woff"), url("../fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.ttf") format("truetype"), url("../fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.svg#Metronic") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: "Metronic";
-    src: url("fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.svg#Metronic") format("svg"); } }
+    src: url("../fonts/metronic/Metronic_fda1334c35d0f5fe2afb3afebbb6774a.svg#Metronic") format("svg"); } }
 
 [data-icons8]:before {
   content: attr(data-icons8); }
