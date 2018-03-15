@@ -10161,6 +10161,15 @@ body.m--skin-dark {
     -ms-border-radius: 6px 6px 0 0;
     -o-border-radius: 6px 6px 0 0;
     border-radius: 6px 6px 0 0; }
+
+  .dropdown-block__quick-access {
+    background: url('../media/other/quick_actions_bg.jpg') center no-repeat;
+    background-size: cover;
+  }
+.dropdown-block__view-profile{
+  background: url('../media/other/user_profile_bg.jpg') center no-repeat;
+  background-size: cover;
+}
     .m-dropdown .m-dropdown__wrapper .m-dropdown__header .m-dropdown__header-title {
       display: block;
       padding: 0 0 5px 0;
