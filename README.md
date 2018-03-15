@@ -12,6 +12,6 @@ Testing repo
 
 
 
-[Demo 5. Main page]( https://grant-inna.github.io/Personal_Account-themeforest/dist/demo5/) 
+[Admin area (Demo 5) Main page]( https://grant-inna.github.io/Personal_Account-themeforest/for_development/admin/) 
 
-[Demo 5. All companies]( https://grant-inna.github.io/Personal_Account-themeforest/dist/demo5/all-companies.html)
+[Admin area (Demo 5) All companies]( https://grant-inna.github.io/Personal_Account-themeforest/dist/demo5/all-companies.html)
