@@ -14,4 +14,9 @@ Testing repo
 
 [Admin area (Demo 5) Main page]( https://grant-inna.github.io/Personal_Account-themeforest/for_development/admin/) 
 
-[Admin area (Demo 5) All companies]( https://grant-inna.github.io/Personal_Account-themeforest/dist/demo5/all-companies.html)
+[Admin area (Demo 5) All companies]( https://grant-inna.github.io/Personal_Account-themeforest/for_development/admin/all-companies.html)
+
+[Admin area. Gates]( https://grant-inna.github.io/Personal_Account-themeforest/for_development/admin/gates.html)
+
+[Admin area. Directory]( https://grant-inna.github.io/Personal_Account-themeforest/for_development/admin/directory.html)
+
