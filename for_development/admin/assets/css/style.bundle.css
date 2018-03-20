@@ -10972,6 +10972,9 @@ body.m--skin-dark {
 .m-badge.m-badge--warning {
   background-color: #ffb822;
   color: #111111; }
+.m-badge.m-badge--warning-2 {
+  background-color: #f5cf55;
+  color: #f6f6f6; }
 
 .m-badge.m-badge--danger {
   background-color: #f4516c;
@@ -31171,3 +31174,105 @@ select.m-select2 {
       text-align: center;
       float: none;
       margin: 0 auto; } }
+
+
+
+/*   CUSTOM   */
+
+
+.flex {
+  display: flex;
+}
+.flex-wrap { display: flex; flex-wrap: wrap }
+.flex-center { display: flex; align-items: center; justify-content: center }
+
+.justify-center { display: flex; justify-content: center }
+.justify-center { display: flex; justify-content: center }
+.justify-around { display: flex; justify-content: space-around }
+.justify-between { display: flex; justify-content: space-between }
+.justify-evenly { display: flex; justify-content: space-evenly }
+.justify-start { display: flex; justify-content: flex-start }
+.justify-end { display: flex; justify-content: flex-end }
+
+.items-start { display: flex; align-items: flex-start }
+.items-center { display: flex; align-items: center }
+.items-end { display: flex; align-items: flex-end }
+
+.column { display: flex; flex-direction: column }
+.column-center { display: flex; flex-direction: column; align-items: center; justify-content: center }
+.column-around { display: flex; flex-direction: column; align-items: center; justify-content: space-around }
+.column-start-items { display: flex; flex-direction: column; align-items: flex-start }
+
+.full-width { width: 100% }
+.full-height { height: 100% }
+.full-size { width: 100%; height: 100% }
+
+
+.un-button {
+  padding: 0;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+.un-input {
+  padding: 0;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+un-input:focus {
+   outline: none;
+}
+
+.un-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.sup {
+  font-size: 90%;
+  margin-top: 5%;
+  color: #54595e;
+}
+
+.icon__viber {
+  width: 20px;
+  height: 20px;
+  background: url('../media/icons/viber.png') center no-repeat;
+  background-size: contain;
+  margin-right: 10px;
+}
+
+.icon__vk {
+  width: 20px;
+  height: 20px;
+  background: url('../media/icons/vk.png') center no-repeat;
+  background-size: contain;
+  margin-right: 10px;
+}
+
+.icon__sms {
+  width: 20px;
+  height: 20px;
+  background: url('../media/icons/sms.png') center no-repeat;
+  background-size: contain;
+  margin-right: 10px;
+}
+
+.icon__for-trash {
+  display: flex; align-items: center; justify-content: center;
+  padding: 5px;
+  background: #e41224;
+  color: #fff;
+  border-radius: 2px;
+}
+.icon__for-edit {
+  display: flex; align-items: center; justify-content: center;
+  padding: 5px;
+  background: #444eff;
+  color: #fff;
+  border-radius: 2px;
+
+  margin-right: 15px;
+}
+
